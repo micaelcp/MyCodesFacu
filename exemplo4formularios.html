@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulário 4</title>
+</head>
+<body>
+    <h1>Exemplo Input Min Max</h1>
+    <p>
+        <label for="data">Digite uma data anterior à 01/01/1980</label>
+        <input type="date" name="txtdataMax" id="txtdataMax" max="1979-12-31">
+    </p>
+    <p>
+        <label for="data">Digite uma data superior à 01/01/2020</label>
+        <input type="date" name="txtdataMin" id="txtdataMin" min="2019-12-31">
+    </p>
+    <p>
+        <label for="numero">Informe a quantidade (1 a 5)</label>
+        <input type="number" name="txtnumero" id="txtnumero" min="1" max="1000" step="10">
+    </p>
+    <h1>Exemplo MaxLenght</h1>
+
+    <div>
+        <label for="name">Digite uma palavra com 5 caracteres</label>
+        <input type="text" name="txtnome" maxlength="5">
+    </div>
+    <br>
+    <div>
+        <label for="name">Digite uma palavra com 10 caracteres</label>
+        <input type="text" name="txtnome2" maxlength="10">
+    </div>
+    <br>
+    <div>
+        <label for="name">Digite uma palavra com 15 caracteres</label>
+        <textarea name="txtArea" id="txtArea" cols="30" rows="5"></textarea>
+    </div>
+</body>
+</html>

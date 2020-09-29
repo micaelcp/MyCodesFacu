@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo formulário 2</title>
+</head>
+<body>
+    <form action="http://paginasdestina.aspx" method="GET">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="txtNome" id="txtNome">
+            </p>
+            <p>
+                <label for="nome">Data de Nascimento</label>
+                <input type="number" name="txtDataNasc" id="txtDataNasc" required min="1900" step="1">
+            </p>
+            <fieldset>
+                <legend>Sexo</legend>
+
+                <p>
+                    <input type="radio" name="rdSexo" id="rdSexo01" value="Feminino">
+                    <label for="sexo">Feminino</label>
+
+                </p>
+                <p>
+                    <input type="radio" name="rdSexo" id="rdSexo02" value="Masculino">
+                    <label for="sexo">Masculino</label>
+
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Região Brasil</legend>
+                <p>
+                    Selecione uma Região
+                    <input type="radio" name="rdRegiao" id="SUL">Sul
+                    <input type="radio" name="rdRegiao" id="NORTE">Norte
+                    <input type="radio" name="rdRegiao" id="NORDESTE">Nordeste
+                    <input type="radio" name="rdRegiao" id="CENTRO OESTE">Centro Oeste
+                    <input type="radio" name="rdRegiao" id="SUDESTE">Sudeste
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Linguagem de Programação</legend>
+                <p>Selecione uma ou mais Linguagens de Programação que você conhece:
+                    <input type="checkbox" name="chkLinguagemProgramacao" value="1">C#
+                    <input type="checkbox" name="chkLinguagemProgramacao" value="2">JAVA
+                    <input type="checkbox" name="chkLinguagemProgramacao" value="3">Python
+                    <input type="checkbox" name="chkLinguagemProgramacao" value="4">C++
+                    <input type="checkbox" name="chkLinguagemProgramacao" value="5">Haskel
+                </p>
+            </fieldset>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="txtemail" id="txtemail">
+            </p>
+            <button type="submit">Enviar Dados</button>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>

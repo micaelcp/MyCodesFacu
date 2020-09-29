@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Formulário</title>
+</head>
+<body>
+    <form action="http://paginasdestina.aspx" method="GET">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="txtNome" id="txtNome">
+            </p>
+
+            <p>
+                <label for="endereco">Endereço</label>
+                <input type="text" name="txtEndereco" id="txtEndereco">
+            </p>
+
+            <p>
+                <label for="cidade">Cidade</label>
+                <input type="text" name="txtCidade" id="txtCidade">
+            </p>
+
+            <p>
+                <label for="estado">Estado</label>
+                <input type="" name="txtEstado" id="txtEstado">
+            </p>
+
+        </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <p>
+                    Natureza do Cargo 
+                    <input type="radio" name="rdRegiao" id="gerencia">Gerência
+                    <input type="radio" name="rdRegiao" id="financeiro">Financeiro
+                    <input type="radio" name="rdRegiao" id="recepcao">Recepção
+                    <input type="radio" name="rdRegiao" id="administrativo">Administrativo
+                    <input type="radio" name="rdRegiao" id="juridico">Jurídico
+                </p>
+                <br>
+                <legend>Área de interesse</legend>
+                <p>
+                    <input type="checkbox" name="chkArea" value="1">Computação
+                    <input type="checkbox" name="chkArea" value="2">Biologia
+                    <input type="checkbox" name="chkArea" value="3">Meio Ambiente
+                    <input type="checkbox" name="chkArea" value="4">Engenheiro
+                    <input type="checkbox" name="chkArea" value="5">História
+                </p>
+            <div>
+                <label for="curriculo">Mini-Currículo</label>
+                <textarea name="txtArea" id="txtArea" cols="45" rows="5"></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+
+</html>
