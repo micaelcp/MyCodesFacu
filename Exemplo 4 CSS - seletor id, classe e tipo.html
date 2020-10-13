@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 4 CSS - Seletores</title>
+    <style>
+        /*Seletor de Tpo*/
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            color: hotpink;
+        }
+        /*Seletor de ID*/
+        #idUm{
+            background-color: lawngreen;
+            width: 60%;
+            border: 4px solid rgb(223, 21, 213);
+        }
+        #idDois{
+            background-color:rgb(216, 104, 179);
+            width: 60%;
+            border: 4px solid green;
+        }
+        /*Seletor de Classe*/
+        .center{
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo 4 CSS - Seletores de ID, Tipo e Classe</h1>
+
+    <div id="idUm" class="center">
+        <p>Div 1 - aplicação seletor de ID e Clsse</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias maiores sit dolore facilis necessitatibus, esse nesciunt optio reprehenderit numquam est corporis voluptas et veniam delectus quibusdam modi minima repudiandae autem!</p>
+    </div>
+
+    <div>
+        <p>Div 1 - sem aplicação seletor de ID e Clsse</p>
+        <p>Nesta div não foi aplicado nenhum seletor</p>
+    </div>
+
+    <div id="idDois" class="center">
+        <p>Div 2 - aplicação seletor de ID e Clsse</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias maiores sit dolore facilis necessitatibus, esse nesciunt optio reprehenderit numquam est corporis voluptas et veniam delectus quibusdam modi minima repudiandae autem!</p>
+    </div>
+    
+</body>
+</html>
