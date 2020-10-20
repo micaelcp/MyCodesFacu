@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS Texto</title>
+    <style>
+        body{
+            color: black;
+            font-size: larger;
+            background-color: rgba(1,255,55,0.2);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+        h1{
+            font-family: fantasy;
+            text-indent: 50px;
+            letter-spacing: 4px;
+            line-height: 1.8;
+            text-shadow: 2px 2px gray;
+            text-decoration: solid;
+        }
+        h2{
+            font-family: fantasy;
+            text-indent: 50px;
+            letter-spacing: -4px;
+            line-height: 0.6;
+            text-decoration: solid;
+        }
+        .ClasseMaiuscula{
+            text-transform: uppercase;
+        }
+        .p1 {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo CSS - Texto</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, architecto animi odit hic ipsum quia nemo consectetur totam vel qui aspernatur dolores perferendis, illo accusantium excepturi sequi. Ea, corporis consectetur?</p>
+
+        <p>Teste de direção do Texto</p>
+        <p class="p1">Teste de direção do Texto!</p>
+        <p class="ClasseMaiuscula">texto exemplo da utilização para transformação.</p>
+    </div>
+    
+</body>
+</html>
