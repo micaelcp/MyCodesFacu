@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS Padding</title>
+    <style>
+        p{
+            margin: 25px;
+            padding: 20px 2px 10px;
+            border: 3px solid red;
+        }
+        div{
+            padding: 10px;
+        }
+        .classeExemplo{
+            padding: 10px;
+            margin: 25px;
+        }
+        .botoes{
+            padding: 10px;
+            margin: 10px;
+            width: 100%;
+        }
+        button{
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <form action="pgDestino.aspx" method="GET">
+        <h1>Exemplo Padding CSS</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolor veritatis quod vero nostrum blanditiis ipsam commodi eaque. Omnis quasi id aspernatur porro nemo harum eveniet veritatis similique quibusdam aliquam.</p>
+    </div>
+    <div class="classeExemplo">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text"name="txtNome" id="">
+            <label for="nome">CPF</label>
+            <input type="text"name="txtNome" id="">
+            <label for="data">Data de Nascimento</label>
+            <input type="date" name="tctdata" id="">
+        </div>
+
+        <div>
+            <label for="nome">Nome da Mãe</label>
+            <input type="text"name="txtNome" id="">
+        
+            <label for="nome">Nome do Pai</label>
+            <input type="text"name="txtNome" id="">
+        </div>
+
+        <div class="botoes">
+            <button type="submit">Cadastrar</button>
+            <button type="submit">Excluir</button>
+            <button type="submit">Pesquisar</button>
+            <button type="submit">Sair</button>
+        </div>
+        
+    </div>
+    </form>
+    
+</body>
+</html>
