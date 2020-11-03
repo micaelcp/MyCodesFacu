@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 5 JavaScript</title>
+</head>
+<body>
+    <h2>O que Javascript pode fazer?</h2>
+    <div id="divTexto" onclick="colorir()">
+    Clique aqui para mudar o estilo da div
+    </div>
+
+    <script>
+        function colorir(){
+            var elementoDiv = document.getElementById('divTexto');
+            elementoDiv.style.backgroundColor="chocolate";
+            elementoDiv.style.color="white";
+            elementoDiv.style.textAlign="center";
+            elementoDiv.style.padding="200px";
+            elementoDiv.innerHTML="A div mudou de cor";
+        }
+    </script>
+    
+</body>
+</html>

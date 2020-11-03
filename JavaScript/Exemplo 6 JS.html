@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 6 JavaScript</title>
+</head>
+<body>
+    <h1 onmouseover="mOver(this)" onmouseout="mOut(this)">
+        Passe o mouse aqui!
+    </h1>
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: cyan; width: 140px; height: 20px; padding: 40px;">
+        Passe o mouse aqui!
+    </div>
+
+    <script>
+        function mOver(obj){
+            obj.innerHTML="Mudou a cor ao passar o mouse"
+            obj.style.backgroundColor="red";
+        }
+        function mOut(obj){
+            obj.innerHTML="Passar o mouse aqui!"
+            obj.style.backgroundColor="green";
+        }
+    </script>
+    
+</body>
+</html>
