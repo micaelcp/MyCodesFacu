@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo JavaScript Estrutura de Decisão</title>
+</head>
+<body>
+    <script>
+        var idade= eval(prompt("Informe a sua idade para saber se você pode votar"));
+        if(idade<16){
+            document.write("<h2> Atenção! Você não pode votar! </h2>")
+            document.write("<h2> Sua idade é menor que 16 anos </h2>")
+        }else if(idade>=16 && idade<18 || idade>65){
+            document.write("<h2> Atenção! Você pode votar! </h2>")
+            document.write("<h2> Pois seu voto é facultativo </h2>")
+        }else{
+            document.write("<h2> Atenção! Você deve votar! </h2>")
+            document.write("<h2> Pois seu voto é obrigatório </h2>")
+        }
+        
+        /*
+        var vidas = 3;
+        if (vidas>2){
+            document.write("O jogador vivo")
+        }else if (vidas==2){
+            document.write("O jogador está ferido")
+        }else if (vidas==1){
+            document.write("O jogador está muito ferido")
+        }else{
+            document.write("O jogador está morto")
+        }*/
+        
+        /*
+        var idade= eval(prompt("Qual a sua idade?"));
+        if (idade>=18){
+            document.write("<h2> Inscrição Autorizada </h2>")
+        }else{
+            document.write("<h2> Inscrição não Autorizada </h2>")
+        }*/
+        
+        /*
+        var pontos = eval(prompt("Informe a pontuação do Jogador!"));
+        if ((pontos<34) || (pontos>65)){
+            document.write("O jogador venceu!")
+        }else{
+            document.write("O jogador perdeu!")
+        }*/
+    </script>
+    
+</body>
+</html>

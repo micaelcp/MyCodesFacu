@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var salario = eval(prompt("Informe o valor do seu salário"));
+        var bonus = salario*(salario>1000?0.10:0.15)
+        /*
+        if (salario>1000){
+            bonus = salario*0.10;
+        }else{
+            bonus = salario*0.15;
+        }*/
+        document.writeln("<h1> Atenção o seu bonus é R$"+ bonus + "<>/h1")
+    </script>
+</body>
+</html>
