@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Exemplo Alertas e Ícones</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Exemplo de utilização de Alertas e Ícones no Bootstrap</h2>
+
+        <button type="submit" class="btn btn-outline-danger">
+            <span class="fa fa-trash">
+                Excluir
+            </span>
+        </button>
+
+        <button type="submit" class="btn btn-outline-success">
+            <i class="fa fa-address-book" aria-hidden="true">
+                Adicionar
+            </i>
+        </button>
+
+        
+        <ul class="list-group">
+            <li class="list-group-item-action active" href="#">Text</li>
+            <li class="list-group-item list-group-item-action disabled" href="#" tabindex="-1" aria-disabled="true">Disabled item</li>
+        </ul>
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod illo possimus incidunt minus id qui nostrum atque cupiditate voluptas tenetur animi quasi, odio nihil culpa ex illum! Qui, tempora?</p>
+    </div>
+    <div class="alert alert-warning" role="alert">
+        <p>Atenção!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae temporibus aspernatur officia enim, maiores dolorem ipsa fugit, dolorum alias non consequatur nobis! Soluta, architecto omnis! Nihil sit nobis iure!</p>
+    </div>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+        <p>Atenção!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, nihil. Aperiam molestiae magni illo a incidunt tempore velit corrupti aliquid architecto unde ad nulla provident quidem, nisi minus. Aut, cum.</p>
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-herading">Atenção</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum neque molestias debitis aspernatur, impedit perspiciatis doloribus, non ipsam aut accusamus quidem voluptatem cum fugit, nostrum ad dolor officia illo rerum.</p>
+    </div>
+    <script>
+        $(".alert").alert();
+    </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

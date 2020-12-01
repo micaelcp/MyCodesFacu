@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Exemplo formulários verticais bootstrap</title>
+</head>
+<body>
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+            <h4 class="alert-heading">Exemplo de utilização de formulários verticais</h4>
+            <p>Redimenssione a janela do navegador para a responsividade do formulário</p>
+        </div>
+        <form action="xpto" method="GET">
+
+        <div class="form-group">
+            <label for="my-input">Nome</label>
+            <input id="txtEmail" class="form-control" type="text" name="">
+        </div>
+        <div class="form-group">
+            <label for="my-input">Email</label>
+            <input id="txtEmail" class="form-control" type="text" name="">
+        </div>
+        <div class="form-group">
+            <label for="my-input">Senha</label>
+            <input id="my-input" class="form-control" type="text" name="">
+        </div>
+
+        <div class="form-group">
+            <label for="my-select">Estado Civil</label>
+            <select id="cboEstadoCivil" class="form-control" name="cboEstadoCivil">
+                <option value="1">Casado</option>
+                <option value="2">Solteiro</option>
+                <option value="3">Divorciado</option>
+                <option value="4">Tico-Tico no fubá</option>
+                <option value="5">Outros</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="submit" class="btn btn-outline-primary">Salvar</button>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-outline-primary">Excluir</button>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-outline-primary">Pesquisar</button>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-outline-primary">Sair</button>
+            </div>           
+            
+        </div>
+    </form>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
