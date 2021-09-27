@@ -1,0 +1,32 @@
+<html> 
+   <head> 
+     <meta charset="UTF-8">
+     <script src="fatorial.js">
+     </script>  
+   </head>
+  <body>
+      <script>
+            function calculaFatorial() {
+            var numero= window.prompt("Informe um número para cálculo do fatorial");
+            alert(fatorial(numero));
+            }
+  
+            function calculaFatorialP(numero) {
+            alert(fatorial(numero));
+            }
+  
+            function fatorial(n){ 
+                if ((n == 0) || (n == 1)) 
+                return 1; 
+                else 
+                return (n * fatorial(n - 1)); 
+  } 
+      </script> 
+    <form>
+      <input type="number" name="num">
+      <input type="button" value="Calcula Fatorial" onClick="calculaFatorialP(num.value)">
+    </form>
+    <br>
+    <img src="https://sabermatematica.com.br/wp-content/uploads/2014/07/fatorial.png" onClick="calculaFatorial()">
+  </body>
+</html>

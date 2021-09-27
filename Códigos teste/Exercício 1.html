@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaio</title>
+    <style>
+        h1{
+            font-size: 50px;
+        }
+        body{
+            /*background-color: aqua;*/
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function atualizaImg(imagem){
+            document.images[0].src = imagem;
+        }
+        function atualizaCor(cor){
+            document.bgColor = cor;
+        }
+        function limparCampos(){
+            
+        }
+    </script>
+    <form>
+        Cor: <input type="text" name="cor" onchange="atualizaCor(cor.value)"><br>
+        Imagem (link): <input type="text" name="imagem" onchange="atualizaImg(imagem.value)"><br>
+        <input type="reset" value="Limpar"><br>
+    
+    <h1>Imagem da página</h1>
+    <img src="https://criticalhits.com.br/wp-content/uploads/2020/06/saitama-1.jpg">
+    </form>
+
+</body>
+</html>
